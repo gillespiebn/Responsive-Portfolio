@@ -1,2 +1,8 @@
 # Responsive-Portfolio
-<!-- asjfnsdv -->
+
+A simple responsive personal portfolio
+
+Technologies used
+HTML5
+CSS
+Media Queries
