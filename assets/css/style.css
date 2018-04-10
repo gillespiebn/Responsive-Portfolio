@@ -159,6 +159,16 @@ h3,
 
 /* portfolio */
 
+.main-section-port {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
 .work {
   position: relative;
   float: left;
@@ -195,8 +205,25 @@ h3,
   float: left;
   width: 200px;
   height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+  margin: 15px;
+  clear: both;
+}
+
+.TTT {
+  background-size: contain;
+}
+
+.NYM {
+  background-size: contain;
+}
+
+.TLT {
+  background-size: contain;
+}
+
+.appBanner {
+  position: sticky;
+  bottom: 0;
 }
 
 /* contact */
