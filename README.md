@@ -2,7 +2,9 @@
 
 A simple responsive personal portfolio
 
-Technologies used
+# Technologies used
 HTML5
+```
 CSS
+```
 Media Queries
