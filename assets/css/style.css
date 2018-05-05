@@ -21,7 +21,8 @@ body {
   clear: both;
 }
 a {
-  text-decoration: none
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1,
 h2,
@@ -102,14 +103,23 @@ nav a:first-child {
 /* footer */
 
 footer {
-  padding: 30px 0;
-  clear: both;
-  font-size: 12px;
-  color: #fff;
-  color: #ccc;
-  text-align: center;
-  background: #666;
-  border-top: 8px solid #5CC8FF;
+  padding: 0 !important;
+  clear: both !important;
+  font-size: 12px !important;
+  color: #fff !important; 
+  color: #ccc !important; 
+  text-align: center !important;
+  background: #666 !important;
+  border-top: 8px solid #5CC8FF !important;
+  position: sticky !important; 
+  left: 0 !important; 
+  right: 0 !important;
+  bottom: 0 !important; 
+}
+
+.invisiblediv {
+ height: 600px;
+ clear: both;
 }
 
 /* sidebar */
@@ -175,7 +185,15 @@ h3,
  width: 1fr 1fr 1fr 1fr;
 }
 
-
+.auth-image {
+  width: 45%;
+  margin: 0px;
+  align-content: center;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  float: left;
+}
 
 
 .work h3 {
@@ -303,11 +321,12 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 100%;
+    width: 90%;
     margin: 0px;
     align-content: center;
     padding-left: 15px;
     padding-bottom: 10px;
+    border-radius: 20px;
   }
 
 }
@@ -380,12 +399,14 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 95%;
+    width: 80%;
     margin: 0px;
     align-content: center;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
+    border-radius: 20px;
+    float: none;
   }
 
 }
@@ -453,11 +474,13 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 90%;
+    width: 80%;
     margin: 0px;
     align-content: center;
     padding-left: 15px;
     padding-bottom: 10px;
+    border-radius: 20px;
+    float: none;
   }
 
 }
